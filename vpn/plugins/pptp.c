@@ -441,7 +441,7 @@ static int run_connect(struct vpn_provider *provider,
 
 	DBG("username %s password %p", username, password);
 
-	str = g_strdup_printf("%s %s --nolaunchpppd --loglevel 2",
+	str = g_strdup_printf("%s %s --nolaunchpppd --loglevel 1",
 				PPTP, host);
 	if (!str) {
 		connman_error("can not allocate memory");
