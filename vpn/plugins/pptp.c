@@ -78,6 +78,7 @@ struct {
 	{ "PPPD.RequirMPPE128", "require-mppe-128", NULL, OPT_BOOL },
 	{ "PPPD.RequirMPPEStateful", "mppe-stateful", NULL, OPT_BOOL },
 	{ "PPPD.NoVJ", "novj", NULL, OPT_BOOL },
+	{ "PPPD.NoDefaultRoute", "nodefaultroute", NULL, OPT_BOOL },
 };
 
 static DBusConnection *connection;

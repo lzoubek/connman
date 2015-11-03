@@ -200,7 +200,7 @@ PPTP VPN supports following options (see pptp(8) and pppd(8) for details)
  PPPD.RequirMPPE128  require-mppe-128     Require the use of MPPE 128 bit (O)
  PPPD.RequirMPPEStateful mppe-stateful    Allow MPPE to use stateful mode (O)
  PPPD.NoVJ           novj                 No Van Jacobson compression (O)
-
+ PPPD.NoDefaultRoute nodefaultroute       Disable creating default route (O)
 
 Example
 =======
